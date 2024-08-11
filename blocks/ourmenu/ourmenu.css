@@ -1,0 +1,71 @@
+.ourmenu > ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: grid;
+    grid-template-columns: repeat(3, 300px); /* Increase each card's width to 300px */
+    grid-gap: 16px;
+    justify-content: center; /* Center the grid in the container */
+  }
+  
+  .ourmenu > ul > li {
+    border: 1px solid chocolate;
+    background-color: black;
+    transition: background-color 0.6s ease;
+  }
+  
+  .ourmenu .ourmenu-card-body {
+    margin: 16px;
+  }
+  
+  .ourmenu .ourmenu-card-image {
+    line-height: 0;
+  }
+  
+  .ourmenu .ourmenu-card-body > *:first-child {
+    margin-top: 0;
+  }
+  
+  .ourmenu > ul > li img {
+    width: 100%;
+    aspect-ratio: 3 / 2; /* Reduce height by setting a wider aspect ratio */
+    object-fit: cover;
+  }
+  
+  .ourmenu.menu-content.block {
+    margin-top: 43px;
+    color: aliceblue;
+  }
+  
+  .ourmenu-card-body h3{
+    font-size: larger;
+    font-family: cursive;
+    color: bisque;
+  }
+  .ourmenu-card-body {
+    text-align: center;
+}
+.ourmenu-card-body h4 {
+    font-family: cursive;
+    color: bisque;
+    font-size: smaller;
+}
+.ourmenu > ul > li:hover{
+    background-color:chocolate;
+}
+.ourmenu-card-body p a {
+    font-family: cursive;
+    color: black;
+    font-size: small;
+    background-color: burlywood;
+    padding: 15px;
+    display: inline-block;
+  padding: 10px 20px;
+  font-size: 16px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}

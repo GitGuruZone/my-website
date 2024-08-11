@@ -1,0 +1,62 @@
+.contect {
+    background-color: #121212;
+    color: #e0e0e0;
+    padding: 20px;
+    border-radius: 8px;
+    max-width: 800px; /* Increased width */
+    margin: 0 auto;
+    text-align: center;
+}
+
+#enter-your-details {
+    margin-top: 0;
+    color: bisque;
+    font-family: cursive;
+    margin-bottom: 20px;
+}
+
+#contact-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 7px;
+}
+
+#contact-form label {
+    color: bisque;
+    font-family: cursive;
+    font-size: larger;
+}
+
+#contact-form input, 
+#contact-form button {
+    width: 100%;
+    padding: 12px; /* Increased padding for height */
+    border: 1px solid #333;
+    border-radius: 4px;
+    font-size: 16px; /* Increased font size for better readability */
+}
+
+#contact-form input {
+    background-color: #1f1f1f;
+    color: #e0e0e0;
+}
+
+#contact-form input:focus {
+    border-color: #555; /* Border color change on focus */
+    outline: none; /* Remove default outline */
+    background-color: #2e2e2e; /* Slightly lighter background on focus */
+}
+
+#contact-form button {
+    background-color: #333;
+    font-family: cursive;
+    color: bisque;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+#contact-form button:hover {
+    background-color: #555;
+}
