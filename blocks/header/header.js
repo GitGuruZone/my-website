@@ -166,11 +166,12 @@ btnEl.forEach((button,index) => {
   // button.addEventListener('click', () => scrollToContent('.about-coffee'));
 // btnArr.add(button);
 button.classList.add(btnArr[index]);
-console.log(button);
+// console.log(button);
 });
 btnEl.forEach((button,index)=>{
   button.addEventListener('click', () => scrollToContent(`.${btnArr[index]}-content`));
-  console.log(`${btnArr[1]}-content`);
+  // console.log(`${btnArr[1]}-content`);
 })
-console.log(btnArr);
+
 }
+
