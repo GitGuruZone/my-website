@@ -147,7 +147,7 @@ export default async function decorate(block) {
   navWrapper.append(nav);
   block.append(navWrapper);
 
-  
+
 
   function scrollToContent(targetSelector) {
     const target = document.querySelector(targetSelector);
@@ -160,18 +160,18 @@ export default async function decorate(block) {
 
 
   let btnEl = document.querySelectorAll('.default-content-wrapper li');
-  let btnArr = ['home','about','menu','products','review','contact','blog'];
+  let btnArr = ['home', 'about', 'menu', 'products', 'review', 'contact', 'blog'];
   // console.log(btnEl);
-btnEl.forEach((button,index) => {
-  // button.addEventListener('click', () => scrollToContent('.about-coffee'));
-// btnArr.add(button);
-button.classList.add(btnArr[index]);
-// console.log(button);
-});
-btnEl.forEach((button,index)=>{
-  button.addEventListener('click', () => scrollToContent(`.${btnArr[index]}-content`));
-  // console.log(`${btnArr[1]}-content`);
-})
+  btnEl.forEach((button, index) => {
+    // button.addEventListener('click', () => scrollToContent('.about-coffee'));
+    // btnArr.add(button);
+    button.classList.add(btnArr[index]);
+    // console.log(button);
+  });
+  btnEl.forEach((button, index) => {
+    button.addEventListener('click', () => scrollToContent(`.${btnArr[index]}-content`));
+    // console.log(`${btnArr[1]}-content`);
+  })
 
 }
 

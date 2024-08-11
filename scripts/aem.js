@@ -768,5 +768,3 @@ export {
   waitForLCP,
   wrapTextNodes,
 };
-
-
