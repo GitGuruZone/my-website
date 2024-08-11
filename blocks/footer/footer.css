@@ -1,43 +1,43 @@
 footer {
-  padding: 2rem;
-  background-color: var(--light-color);
-  font-size: var(--body-font-size-s);
-}
-
-footer .footer {
-  max-width: 1200px;
-  margin: auto;
-}
-
-footer .footer p {
-  margin: 0;
-}
-p.anchors-links a {
-  font-family: cursive;
-  font-size: medium;
- margin: 3px;
-  color: bisque;
-  border: 0.5px solid white;
-
-  padding: 7px;
-}
-
-.footer-wrapper{
-  background-color:#1f252b;
-  padding: 6px;
-}
-
-
-.footer-links picture img {
-  margin: 2px;
-  height: auto;
-  width: 4%;
-  margin-bottom: 12px;
-}
-p.my-name {
-  color: blanchedalmond;
-  font-family: cursive;
-}.footer-links > div :last-child{
- 
-  margin-top: 5px;
-}
+    padding: 2rem;
+    background-color: var(--light-color);
+    font-size: var(--body-font-size-s);
+  }
+  
+  footer .footer {
+    max-width: 1200px;
+    margin: auto;
+  }
+  
+  footer .footer p {
+    margin: 0;
+  }
+  p.anchors-links a {
+    font-family: cursive;
+    font-size: medium;
+   margin: 3px;
+    color: bisque;
+    border: 0.5px solid white;
+  
+    padding: 7px;
+  }
+  
+  .footer-wrapper{
+    background-color:#1f252b;
+    padding: 6px;
+  }
+  
+  
+  .footer-links picture img {
+    margin: 2px;
+    height: auto;
+    width: 4%;
+    margin-bottom: 12px;
+  }
+  p.my-name {
+    color: blanchedalmond;
+    font-family: cursive;
+  }.footer-links > div :last-child{
+   
+    margin-top: 5px;
+  }
